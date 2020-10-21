@@ -1,0 +1,132 @@
+
+#header{
+  margin-top: 6rem;
+  display: flex;
+
+  header *{
+    font-size: 3.5rem;
+    margin: 0;
+    color: rgba(var(--text-color),1);
+    font-weight: bold;
+  }
+  header{
+    box-shadow: 0 10px 20px rgba(var(--text-color), 0.16), 0 6px 6px rgba(var(--text-color), 0.23);
+    padding: 40px;
+    justify-content: space-around;
+    margin-left: 6rem;
+    background-color: var(--background-color);
+    transition: box-shadow .4s;
+    &:hover{
+      box-shadow: 0 10px 20px rgba(12,12,12, 0.4), 0 6px 6px rgba(12,12,12, 0.43);
+    }
+    div{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
+
+#subheader{
+  margin-top: 6rem;
+
+  display: flex;
+  header *{
+    font-size: 3.5rem;
+    margin: 0;
+    color: rgba(var(--text-color),1);
+    font-weight: bold;
+  }
+  header{
+    box-shadow: 0 10px 20px rgba(var(--text-color), 0.16), 0 6px 6px rgba(var(--text-color), 0.23);
+    padding: 40px;
+    justify-content: space-around;
+    margin-left: 6rem;
+    background-color: var(--background-color);
+    transition: box-shadow .4s;
+    &:hover{
+      box-shadow: 0 10px 20px rgba(12,12,12, 0.4), 0 6px 6px rgba(12,12,12, 0.43);
+    }
+    div{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
+
+#schools{
+  margin-top: 6rem;
+  display: flex;
+  margin-right: 6rem;
+  header *{
+    font-size: 3.5rem;
+    margin: 0;
+    color: rgba(var(--text-color),1);
+    font-weight: bold;
+  }
+  header{
+    box-shadow: 0 10px 20px rgba(var(--text-color), 0.16), 0 6px 6px rgba(var(--text-color), 0.23);
+    padding: 40px;
+    justify-content: space-around;
+    margin-left: 6rem;
+    background-color: var(--background-color);
+    transition: box-shadow .4s;
+    &:hover{
+      box-shadow: 0 10px 20px rgba(12,12,12, 0.4), 0 6px 6px rgba(12,12,12, 0.43);
+    }
+    div{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width:1000px)
+{
+  #header{
+    flex-direction: column;
+    margin-top: 3rem;
+    header *{
+      align-items: center;
+      font-size: 5rem;
+      font-weight: bold;
+    }
+    header{
+      margin: 3rem;
+      margin-right: 6rem;
+      margin-left: 6rem;
+    }
+  }
+  #subheader{
+    flex-direction: column;
+    margin-bottom: 3rem;
+    header *{
+      align-items: center;
+      font-size: 5rem;
+      font-weight: bold;
+    }
+    header{
+      margin: 0 6rem 3rem 6rem;
+    }
+    header:last-of-type{
+      margin-top: 3rem;
+    }
+  }
+
+  #schools{
+    flex-direction: column;
+    margin-top: 10rem;
+    header *{
+      align-items: center;
+      font-size: 5rem;
+      font-weight: bold;
+    }
+    header{
+      margin: 3rem;
+      margin-right: 6rem;
+      margin-left: 6rem;
+    }
+  }
+}

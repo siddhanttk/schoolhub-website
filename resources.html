@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="icon" href="favicon.png">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>School Hub</title>
+  </head>
+  <body>
+    <div id="menu-section">
+      <input type="checkbox" id="menu">
+      <aside id="menu-controller">
+
+        <label for="menu" class="icon"></label>
+      </aside>
+
+      <div id="dimmed-bg"></div>
+
+      <div id="menu-content">
+        <header><a href="index.html"><img src="logofinal.png" alt="" id="logo"></a>
+          <label for="menu" class="icon"></label>
+        </header>
+
+        <section id="menu-items">
+          <a href="resources.html"><h2>Resources</h2></a>
+          <a href="bunkzone.html"><h2>Bunk Zone</h2></a>
+          <h2>Students of Lucknow</h2>
+          <section id="theme">
+                    <h5>Theme:
+                        <span id="light" class="current-theme" onclick="updateTheme('light')">Light</span>
+                        <span id="dark" onclick="updateTheme('dark')">Dark</span>
+                    </h5>
+                </section>
+          <h2>My Account</h2>
+        </section>
+       </div>
+     </div>
+
+    <section id="main">
+      <article id="schools">
+        <header>
+          <div>
+          <a href="lpc.html"><h2>Lucknow Public College</h2></a>
+            <img src="resources.png" alt="" width="100px" height="100px">
+          </div>
+        </header>
+        <header>
+          <div>
+            <h2>City Montessori School</h2>
+            <img src="resources.png" alt="" width="100px" height="100px">
+          </div>
+        </header>
+
+      </article>
+
+    </section>
+
+  </body>
+</html>
